@@ -13,7 +13,6 @@ public class Gameplay_Controller : MonoBehaviour
     //Update fonksiyonunun içerisindeki kod dizisi ise temel oynanışı sağlar, seviyenin tamamlanma durumunu kontol eder.
     //Infinite_level_creator adlı fonksiyon ise belirli bir seviye geçildikten sonra oynanışa uygun rastgele seviyelerin oluşturulabilmesi için gerekli bilgiyi üretir.
     //Oyunu inceleme fırsatı bulursanız.Oynanış ile ilgili daha detaylı bir bilgiye sahip olabilirsiniz.
-    //Mehmet Bahadır MAKTAV
     
     public Image bg_hexagon_exp, playable_hexagon_exp, bg_hexagons_panel, playable_hexagons_panel, buttons_panel, level_1_2_info_panel, level210_finished_info_panel;
     public Text level_info_text, hintcounter_info_text;
