@@ -5,6 +5,16 @@ using UnityEngine.UI;
 
 public class Gameplay_Controller : MonoBehaviour
 {
+    //Bu kod dizisi, açıklamalarda belirttiğim ve play store linkini paylaştığım oyunum 'Zeroo'nun oynanış mekaniğini sağlayan kodları içermektedir.
+    //Bu kod dizisi, oyunda yer alan altıgen şekillerin konum,renk gibi bilgilerini barındıran bir text dosyasından aldığı bilgileri kullanarak seviyeyi oluşturur.
+    //Seviye oluşturulurken altıgenlerin konumları bir matrix üzerinde düşünülerek konumları tanımlanır.
+    //Sonrasında seçili temaya bağlı olarak altıgenlerin ve UI elementlerin renk paletleri belirlenir. 
+    //Bulunulan seviyeye bağlı olarak reklam gösterme, müzik ve ses efektlerinin aktif olup olmamasına bağlı olarak ses kliplerinin çalıştırılması gerçekleştirilir.
+    //Update fonksiyonunun içerisindeki kod dizisi ise temel oynanışı sağlar, seviyenin tamamlanma durumunu kontol eder.
+    //Infinite_level_creator adlı fonksiyon ise belirli bir seviye geçildikten sonra oynanışa uygun rastgele seviyelerin oluşturulabilmesi için gerekli bilgiyi üretir.
+    //Oyunu inceleme fırsatı bulursanız.Oynanış ile ilgili daha detaylı bir bilgiye sahip olabilirsiniz.
+    //Mehmet Bahadır MAKTAV
+    
     public Image bg_hexagon_exp, playable_hexagon_exp, bg_hexagons_panel, playable_hexagons_panel, buttons_panel, level_1_2_info_panel, level210_finished_info_panel;
     public Text level_info_text, hintcounter_info_text;
     public ParticleSystem particle_system;
