@@ -3,5 +3,7 @@ Panteon 'oyun geliştirme stajyeri' staj başvurusu için gereken örnek kodu i�
 
 Mehmet Bahadır MAKTAV
 bahadirmaktavv@gmail.com
-Örnek kodu içeren 'Zeroo' isimli oyunumun 'Google Play Store' adresi : 
+
+Örnek kodu içeren 'Zeroo' isimli oyunumun 'Google Play Store' adresi :
+
 https://play.google.com/store/apps/details?id=com.CUSGames.Zeroo
